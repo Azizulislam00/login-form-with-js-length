@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>login form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="color"></div>
+        <div class="box">
+            <div class="borgo" style="--i:0;"></div>
+            <div class="borgo" style="--i:1;"></div>
+            <div class="borgo" style="--i:2;"></div>
+            <div class="borgo" style="--i:3;"></div>
+            <div class="borgo" style="--i:4;"></div>
+            <div class="container">
+                <div class="form">
+                    <h2>login form</h2>
+                    <form>
+                        <div class="inputbox">
+                            <input type="text" placeholder="user name" id="name" onkeyup="lettercount();">
+                        </div>
+                        <p class="azizul1">minimum use eight charecter: <span id="total"></span></p>
+                        <div class="inputbox">
+                            <input type="password" placeholder="password" id="pass" onkeyup="lettercountt();">
+                        </div>
+                        <p class="azizul1">minimum use eight charecter: <span id="total2"></span></p>
+                        <div class="inputbox">
+                            <input type="submit" value="login">
+                        </div>
+                        <p class="forget">
+                            forgot password ? <a href="#">click here</a>
+                        </p>
+                        <p class="forget">
+                            don't have an account ? <a href="#">sign up</a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
